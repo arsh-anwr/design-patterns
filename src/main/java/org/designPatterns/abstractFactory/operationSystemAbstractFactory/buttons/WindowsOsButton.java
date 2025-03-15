@@ -1,4 +1,4 @@
-package main.java.org.designPatterns.abstractDesignPattern.operationSystemAbstractFactory.buttons;
+package main.java.org.designPatterns.abstractFactory.operationSystemAbstractFactory.buttons;
 
 public class WindowsOsButton implements Button{
     @Override

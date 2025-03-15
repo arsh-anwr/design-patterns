@@ -1,9 +1,9 @@
-package main.java.org.designPatterns.abstractDesignPattern.operationSystemAbstractFactory;
+package main.java.org.designPatterns.abstractFactory.operationSystemAbstractFactory;
 
-import main.java.org.designPatterns.abstractDesignPattern.operationSystemAbstractFactory.app.Application;
-import main.java.org.designPatterns.abstractDesignPattern.operationSystemAbstractFactory.factories.GUIFactory;
-import main.java.org.designPatterns.abstractDesignPattern.operationSystemAbstractFactory.factories.MacOsFactory;
-import main.java.org.designPatterns.abstractDesignPattern.operationSystemAbstractFactory.factories.WindowsOsFactory;
+import main.java.org.designPatterns.abstractFactory.operationSystemAbstractFactory.app.Application;
+import main.java.org.designPatterns.abstractFactory.operationSystemAbstractFactory.factories.GUIFactory;
+import main.java.org.designPatterns.abstractFactory.operationSystemAbstractFactory.factories.MacOsFactory;
+import main.java.org.designPatterns.abstractFactory.operationSystemAbstractFactory.factories.WindowsOsFactory;
 
 public class Demo {
     private static Application configureApp() {
