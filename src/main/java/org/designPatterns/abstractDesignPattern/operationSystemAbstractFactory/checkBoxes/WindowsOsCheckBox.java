@@ -1,4 +1,4 @@
-package main.java.org.designPatterns.abstractDesignPattern.checkBoxes;
+package main.java.org.designPatterns.abstractDesignPattern.operationSystemAbstractFactory.checkBoxes;
 
 public class WindowsOsCheckBox implements Checkbox{
     @Override
