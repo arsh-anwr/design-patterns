@@ -1,7 +1,8 @@
-package main.java.org.designPatterns.abstractFactory.operationSystemAbstractFactory.factories;
+package org.designPatterns.abstractFactory.operationSystemAbstractFactory.factories;
 
-import main.java.org.designPatterns.abstractFactory.operationSystemAbstractFactory.buttons.Button;
-import main.java.org.designPatterns.abstractFactory.operationSystemAbstractFactory.checkBoxes.Checkbox;
+
+import org.designPatterns.abstractFactory.operationSystemAbstractFactory.buttons.Button;
+import org.designPatterns.abstractFactory.operationSystemAbstractFactory.checkBoxes.Checkbox;
 
 public interface GUIFactory {
     Button createButton();

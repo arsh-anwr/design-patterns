@@ -1,9 +1,10 @@
-package main.java.org.designPatterns.abstractFactory.operationSystemAbstractFactory.factories;
+package org.designPatterns.abstractFactory.operationSystemAbstractFactory.factories;
 
-import main.java.org.designPatterns.abstractFactory.operationSystemAbstractFactory.buttons.Button;
-import main.java.org.designPatterns.abstractFactory.operationSystemAbstractFactory.buttons.WindowsOsButton;
-import main.java.org.designPatterns.abstractFactory.operationSystemAbstractFactory.checkBoxes.Checkbox;
-import main.java.org.designPatterns.abstractFactory.operationSystemAbstractFactory.checkBoxes.WindowsOsCheckBox;
+
+import org.designPatterns.abstractFactory.operationSystemAbstractFactory.buttons.Button;
+import org.designPatterns.abstractFactory.operationSystemAbstractFactory.buttons.WindowsOsButton;
+import org.designPatterns.abstractFactory.operationSystemAbstractFactory.checkBoxes.Checkbox;
+import org.designPatterns.abstractFactory.operationSystemAbstractFactory.checkBoxes.WindowsOsCheckBox;
 
 public class WindowsOsFactory implements GUIFactory {
     @Override

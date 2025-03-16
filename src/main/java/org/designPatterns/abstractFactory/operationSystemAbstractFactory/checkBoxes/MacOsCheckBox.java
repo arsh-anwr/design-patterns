@@ -1,4 +1,4 @@
-package main.java.org.designPatterns.abstractFactory.operationSystemAbstractFactory.checkBoxes;
+package org.designPatterns.abstractFactory.operationSystemAbstractFactory.checkBoxes;
 
 public class MacOsCheckBox implements Checkbox{
     @Override
